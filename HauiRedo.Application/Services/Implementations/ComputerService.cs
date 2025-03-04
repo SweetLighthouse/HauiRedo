@@ -14,7 +14,7 @@ public class ComputerService : IComputerService
         _unitOfWork = unitOfWork;
     }
 
-    public async Task<IEnumerable<Computer>> GetAllComputerAsync()
+    public async Task<IEnumerable<Computer>> GetAllComputersAsync()
     {
         return await _unitOfWork.Computers.GetAsync();
     }

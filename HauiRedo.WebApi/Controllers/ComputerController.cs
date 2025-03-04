@@ -29,9 +29,9 @@ public class ComputerController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetAllComputerAsync()
+    public async Task<IActionResult> GetAllComputersAsync()
     {
-        IEnumerable<Computer> items = await _service.GetAllComputerAsync();
+        IEnumerable<Computer> items = await _service.GetAllComputersAsync();
         var responseItems = _mapper.Map<IEnumerable<ComputerDto>>(items);
         return Ok(responseItems);
     }
