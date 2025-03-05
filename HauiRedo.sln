@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HauiRedo.WebApi", "HauiRedo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HauiRedo.Application", "HauiRedo.Application\HauiRedo.Application.csproj", "{8E287E9D-0F02-4236-9DA5-78DD7FCD854E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HauiRedo.WebApp", "HauiRedo.WebApp\HauiRedo.WebApp.csproj", "{1C3AD75D-BC81-429F-BB32-94A2D35298FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8E287E9D-0F02-4236-9DA5-78DD7FCD854E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E287E9D-0F02-4236-9DA5-78DD7FCD854E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E287E9D-0F02-4236-9DA5-78DD7FCD854E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C3AD75D-BC81-429F-BB32-94A2D35298FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3AD75D-BC81-429F-BB32-94A2D35298FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3AD75D-BC81-429F-BB32-94A2D35298FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3AD75D-BC81-429F-BB32-94A2D35298FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
