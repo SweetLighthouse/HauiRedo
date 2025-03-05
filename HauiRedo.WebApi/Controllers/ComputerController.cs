@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using HauiRedo.Application.Dtos.ComputerDto;
-using HauiRedo.Application.Services.Implementations;
+using HauiRedo.Application.Services.Interfaces;
 using HauiRedo.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,10 +10,10 @@ namespace HauiRedo.WebApi.Controllers;
 [ApiController]
 public class ComputerController : ControllerBase
 {
-    private readonly ComputerService _service;
+    private readonly IComputerService _service;
     private readonly IMapper _mapper;
 
-    public ComputerController(ComputerService service, IMapper mapper)
+    public ComputerController(IComputerService service, IMapper mapper)
     {
         _service = service;
         _mapper = mapper;

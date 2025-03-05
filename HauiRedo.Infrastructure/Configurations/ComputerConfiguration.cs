@@ -11,5 +11,6 @@ internal class ComputerConfiguration : IEntityTypeConfiguration<Computer>
     {
         builder.ToTable(nameof(Computer));
         builder.HasKey(item => item.Id);
+        builder.Property(item => item.Id).ValueGeneratedOnAdd();
     }
 }
